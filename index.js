@@ -15,6 +15,7 @@ const {
   isAxiosError,
   spread,
   toFormData,
+  HttpStatusCode,
   AxiosHeaders,
   formToJSON,
   mergeConfig
@@ -33,6 +34,7 @@ export {
   isAxiosError,
   spread,
   toFormData,
+  HttpStatusCode,
   AxiosHeaders,
   formToJSON,
   mergeConfig
