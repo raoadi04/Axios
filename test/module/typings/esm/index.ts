@@ -466,10 +466,14 @@ axios.get('/user')
 
 // FormData
 
-axios.toFormData({x: 1}, new FormData());
+axios.toFormData({x: 1}, {
+  indexes: true
+});
 
 // named export
-toFormData({x: 1}, new FormData());
+toFormData({x: 1}, {
+  indexes: null
+});
 
 // formToJSON
 

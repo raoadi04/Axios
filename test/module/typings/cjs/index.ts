@@ -409,7 +409,7 @@ axios.get('/user')
 
 // FormData
 
-axios.toFormData({x: 1}, new FormData());
+axios.toFormData({x: 1});
 
 // AbortSignal
 
